@@ -68,7 +68,7 @@ def comVis():
         angle = 27*((((opening.shape[1])/2)-(tup2[0]))/(opening.shape[1]/2))
         angle = round(angle, 1)
         #print("Angle in degrees: ", angle )
-
+        writePosition(angle)
         if(tup2[0]==0 or tup2[1]==0):
             marker=False
      
